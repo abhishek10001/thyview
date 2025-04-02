@@ -1,0 +1,66 @@
+.about-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #1c1c1c;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    color: #ffffff;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .about-container:hover {
+    transform: translateY(-5px);  /* Subtle lift on hover */
+  }
+  
+  .about-title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    color: white;  /* Your theme color */
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-family: 'Borel', cursive;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .about-section {
+    background: #292929;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .about-section:hover {
+    transform: scale(1.03);  /* Slight zoom effect */
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.6);
+  }
+  
+  .about-icon {
+    font-size: 3rem;
+    color: #ca0a00;
+    margin-bottom: 15px;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #f8f8f8;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #dcdcdc;
+  }
+  
