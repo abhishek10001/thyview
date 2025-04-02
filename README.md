@@ -1,4 +1,4 @@
-# REVIEWiT - Movie Review Website
+# thyview - Movie Review Website
 
 REVIEWiT is a web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with JWT (JSON Web Tokens) for user authentication. The website allows users to browse movie reviews, post their own reviews, create an account, log in, and update their profile information.
 
@@ -9,17 +9,6 @@ REVIEWiT is a web application built using the MERN (MongoDB, Express.js, React.j
 - User authentication using JWT for secure login and registration.
 - Update and manage your profile information.
 
-## Screenshots
-
-![Screenshot 1](banners/banner1.png)
-
-![Screenshot 2](banners/banner2.png)
-
-![Screenshot 3](banners/banner3.png)
-
-## Demo
-
-Check out the live demo of REVIEWiT: [Demo Link](https://reviewitbydex.netlify.app/)
 
 ## Getting Started
 
@@ -32,10 +21,7 @@ Check out the live demo of REVIEWiT: [Demo Link](https://reviewitbydex.netlify.a
 
 1. Rename `.env.example` to `.env` and update the environment variables with your configuration.
 
-### Installation & run the application
 
-1. Clone the repository: `git clone https://github.com/soham-basak/REVIEWiT.git`
-2. Change into the project directory: `cd reviewit`
 3. Change into the project directory: `cd backend`
 4. Install server dependencies: `npm install`
 5. Run the server: `npm start` or `npm run dev`
@@ -66,6 +52,6 @@ The application will be accessible at `http://localhost:3000/` in your web brows
 
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-## Authors
 
-- [Dexter](https://github.com/soham-basak)
+
+
